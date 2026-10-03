@@ -22,3 +22,7 @@ Thumbs.db
 AppData/
 **/AppData/
 
+# Agents & AI tools
+.agents/
+
+
