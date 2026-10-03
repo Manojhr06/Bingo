@@ -1,0 +1,36 @@
+{
+  "name": "bingo25",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.5",
+    "@expo/vector-icons": "^14.1.0",
+    "expo": "~53.0.27",
+    "expo-asset": "~11.1.7",
+    "expo-av": "~15.1.7",
+    "expo-clipboard": "~7.1.5",
+    "expo-font": "~13.3.2",
+    "expo-haptics": "~14.1.4",
+    "expo-sharing": "~13.1.5",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.6",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-web": "^0.20.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bingo25-monorepo",
+  "version": "1.0.0",
+  "description": "Bingo 25 - Real-time 5x5 mobile multiplayer game built with React Native, Expo, Node.js, Express, Socket.IO, and MongoDB",
+  "scripts": {
+    "server:dev": "npm --prefix server run dev",
+    "server:start": "npm --prefix server run start",
+    "server:build": "npm --prefix server run build",
+    "server:test": "npm --prefix server run test",
+    "mobile:start": "npm --prefix mobile run start",
+    "mobile:android": "npm --prefix mobile run android",
+    "mobile:web": "npm --prefix mobile run web",
+    "mobile:check": "npm --prefix mobile run check"
+  },
+  "keywords": ["bingo", "game", "react-native", "expo", "socket.io", "express", "multiplayer", "android"],
+  "workspaces": [
+    "mobile",
+    "server"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}
